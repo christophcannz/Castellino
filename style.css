@@ -1,0 +1,101 @@
+body {
+    /*background-image: url("./assets/images/Sky.jpg");
+    background-size: auto 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*background-color: black;*/
+    background: url("./assets/images/Sky.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'NTR', sans-serif;
+    margin: 0;
+}
+
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+.title-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    margin-top: 20px;
+    font-size: 18pt;
+    background-color:white;
+    height: 25px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.head-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    background-color:white;
+    height: 50px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.head-nav ul li > ul {
+    display: none;
+    flex-direction: column;
+}
+
+.head-nav ul li > ul li {
+    width: 100%;
+}
+
+.head-nav ul li:hover > ul {
+    display: flex;
+}
+
+.head-nav a:hover {
+    background-color: white;
+    color: #25274d;
+}
+
+.head-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.head-nav ul li {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.head-nav .dropdown li > a {
+    background-color: #00688b;
+    color: #white;
+}
+
+.head-nav .dropdown li > a:hover {
+    background-color: white;
+    color: #25274d;
+}
+
+.dropdown > ul li {
+    display: none;
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 2;
+}
+
+.dropdown ul li:hover {
+    display: block;
+}
