@@ -29,7 +29,7 @@ body {
     justify-content: center;
     color: grey;
     background-color:white;
-    height: 50px;
+    height: 25px;
     text-decoration: none;
     z-index: 1;
 }
@@ -71,6 +71,37 @@ body {
     max-width: 71%;
     margin: 0 auto;
     height: auto;
+}
+
+.main-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:lightgray;
+    max-width: 71%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.main-contact p {
+    font-size: 20pt;
+}
+
+.main-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:lightgray;
+    max-width: 71%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.main-services ul li {
+    list-style-type: none;
+    display: table;
+    font-size: 20pt;
+    color: white;
 }
 
 @media screen and (max-width: 419px) {
@@ -166,8 +197,11 @@ p {
     }
 }
 
-footer{
+footer {
     bottom: 0;
+    background-color: #3a54a4;
+    color: white;
     position: fixed;
     width: 100%;
+    height: 25px;
 }
